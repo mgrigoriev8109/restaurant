@@ -1,1 +1,0 @@
-(()=>{"use strict";document.body.appendChild(function(){const t=document.getElementById("content");return t.textContent=`When you visit ${"Gri"} you don't just get a meal, you get an experience.`,t}())})();
