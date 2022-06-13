@@ -1,11 +1,11 @@
-import _ from 'lodash';
+import restaurantContent from './generatePage';
 
  function component() {
-   const element = document.createElement('div');
+   const content = document.getElementById('content');
 
-   element.innerHTML = _.join(['Restaurant', 'Page'], ' ');
+   content.textContent = restaurantContent('Gri');
 
-   return element;
+   return content;
  }
 
  document.body.appendChild(component());
