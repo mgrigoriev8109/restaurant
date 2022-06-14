@@ -1,13 +1,8 @@
-import restaurantContent from './generatePage';
+import mainPage from './mainPage';
 import './style.css';
 import Background from './background.jpg';
 
- function component() {
-   const content = document.getElementById('content');
-   content.textContent = restaurantContent('Gri');
+ //function component() {
+ //}
 
-
-   return content;
- }
-
- document.body.appendChild(component());
+ document.body.appendChild(mainPage());
